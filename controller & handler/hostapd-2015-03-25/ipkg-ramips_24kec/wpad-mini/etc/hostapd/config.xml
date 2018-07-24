@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup>
+	<masterip>172.171.51.35</masterip>
+	<masterport>7878</masterport>
+</setup>

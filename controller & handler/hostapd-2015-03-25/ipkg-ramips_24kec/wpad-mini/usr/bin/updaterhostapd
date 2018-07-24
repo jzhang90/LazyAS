@@ -1,0 +1,16 @@
+#!/bin/sh
+
+HOSTAPDCONF="/etc/hostapd/config.xml"
+
+
+ControlIP=$(uci get hostapdu.wisdom.ControlIP)
+ControlPort=$(uci get hostapdu.wisdom.ControlPort)
+
+
+cat <<EOF >${HOSTAPDCONF}
+<?xml version="1.0" encoding="UTF-8"?>
+<setup>
+        <masterip>${ControlIP}</masterip>
+        <masterport>${ControlPort}</masterport>
+</setup>
+EOF

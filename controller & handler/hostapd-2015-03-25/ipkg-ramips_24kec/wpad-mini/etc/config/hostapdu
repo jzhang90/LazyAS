@@ -1,0 +1,5 @@
+
+config service 'wisdom'
+	option ControlIP '172.171.51.35'
+	option ControlPort '7878'
+

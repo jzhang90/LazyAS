@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup>
+        <masterip>10.24.0.99</masterip>
+        <masterport>8888</masterport>    
+</setup>
